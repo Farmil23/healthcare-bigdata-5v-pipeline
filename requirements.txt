@@ -1,0 +1,7 @@
+pyspark>=3.5
+pandas
+pyarrow
+scikit-learn
+langgraph
+streamlit>=1.37
+groq        # opsional: hanya kalau mau jawaban agen dari LLM sungguhan

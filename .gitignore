@@ -1,0 +1,28 @@
+# Rahasia (jangan pernah di-commit)
+.env
+.streamlit/secrets.toml
+
+# Data hasil generate dan simulasi (dibuat ulang dengan python run_all.py)
+data/
+
+# Python / virtualenv
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Log dan crash dump (JVM, Streamlit, Spark)
+*.log
+hs_err_pid*
+replay_pid*
+
+# Artefak Spark/Hive lokal
+spark-warehouse/
+metastore_db/
+derby.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
